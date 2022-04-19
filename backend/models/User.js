@@ -1,5 +1,5 @@
 // Imports
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const uniqueValidator = require("mongoose-unique-validator");
 
 // Modeles
@@ -12,4 +12,4 @@ const userSchema = mongoose.Schema({
 userSchema.plugin(uniqueValidator);
 
 // Exports
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model("User", userSchema);
