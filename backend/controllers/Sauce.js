@@ -1,5 +1,5 @@
 // Imports
-const Sauce = require('../models/Sauce');
+const Sauce = require('../models/sauce');
 const fs = require('fs');
 
 // Création d'une sauce
